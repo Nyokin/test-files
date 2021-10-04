@@ -1,0 +1,209 @@
+/* This css file if for HYF assignment */
+
+body, html {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: #FFFACD;
+    margin: 0;
+}
+
+.img-circle {
+    border: 1px solid white;
+    border-radius: 20%;
+    
+}
+.section {
+    background-color: ##FFFACD;
+    margin: 30px 50px;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.sections {
+    display: flex;
+    margin: 20px auto;
+    border: 2px solid #cecece;
+    border-radius: 10px;
+    justify-content: center;
+}
+header {
+    background-image: url("https://images.freeimages.com/images/large-previews/55c/fault-line-1308465.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+
+header img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto; 
+}
+
+header p {
+    font-size: 25pt;
+    color: #fff;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #303030;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+}
+
+li {
+    margin-bottom: 5px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+table {
+    /* width: auto; */
+    font-size: 12pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    font-weight: bold;
+    color: 	#808080;
+}
+
+progress {
+    /* width: auto;*/
+    /* height: 15px; */
+    color: grey;
+    background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+
+progress::-webkit-progress-value {
+    background: grey;
+} 
+
+progress::-moz-progress-bar {
+    color: grey;
+    background: #efefef;
+}
+
+progress:after {
+    content: attr(value)'\2103';
+    
+}
+
+iframe {
+    /* display: block; */
+    margin: 30px auto;
+    width: 70%;
+    border: 3px solid #cecece;
+}
+
+.video-wrapper {
+    width: 100%;
+}
+
+.video-1 {
+    float: left;
+    width: 50%;
+}
+
+.video-2 {
+    float: right;
+    width: 50%;
+}
+
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #efefef;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #808080;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #EEE8AA;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#contacts img {
+    height: 30px;
+    width: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+
+#contacts img:hover {
+    opacity: 0.8;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#copyright {
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: #EEE8AA;
+}
